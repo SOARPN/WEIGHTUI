@@ -77,3 +77,11 @@ h1 {
     outline: 0;
     border: none;
 }
+
+.display{
+   position: absolute;
+   bottom: 15%;
+   left: 45%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+}
