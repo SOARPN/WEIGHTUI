@@ -85,3 +85,16 @@ h1 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: bolder;
 }
+
+.clear-btn{
+    position: absolute;
+   bottom: 7%;
+   left: 43%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   width: 5em;
+   max-width: 100%;
+   background-color: #F5B7B1;
+   outline: none;
+   border: none;
+}
