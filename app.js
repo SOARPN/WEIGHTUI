@@ -11,7 +11,7 @@ kilo.addEventListener('click', function(){
     if (typedNum !== ''){
         const newVar = new Converter(typedNum);
         let kg = newVar.convertTokilo();
-    document.querySelector('.display').innerText = kg;
+    document.querySelector('.display').innerText = kg + "kg";
     }
     gram.disabled = true;
 });
@@ -22,7 +22,7 @@ gram.addEventListener('click', function(){
 if (typedNum !== ''){
     const newVar = new Converter(typedNum);
    let g = newVar.convertTogram(); 
-document.querySelector('.display').innerText = g;
+document.querySelector('.display').innerText = g + "g";
 }
 kilo.disabled = true;
 });
